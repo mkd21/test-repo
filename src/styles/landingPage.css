@@ -1,0 +1,15 @@
+.glass-background {
+  position: relative;
+  background-image: url("/images/landing-page-bg.png"); /* Update the path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Glassmorphism effect */
+  backdrop-filter: blur(56px);
+  -webkit-backdrop-filter: blur(10px);
+
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: slight overlay tint */
+  border-radius: 16px; /* Optional: soften the edges */
+  overflow: hidden; /* Clip children if needed */
+}

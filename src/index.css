@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-Bold.woff2") format("woff2");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Unageo";
+  src: url("/fonts/Unageo-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Louis George Cafe";
+  src: url("/fonts/LouisGeorgeCafe.woff2") format("woff2");
+}
+
+/* @layer base {
+  body {
+    @apply bg-white text-black;
+  }
+} */
+
+
+html {
+  scroll-behavior: smooth;
+}
