@@ -10,7 +10,7 @@ const About = () => {
   const textRef = useRef(null);
   let observer;
 
-  // Mayank GG
+ 
 
   // Function to set initial “hidden/off‑screen” styles
   const resetElements = () => {
