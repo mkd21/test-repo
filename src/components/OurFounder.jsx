@@ -9,6 +9,7 @@ const OurFounder = () => {
     const section = sectionRef.current;
     if (!section) return;
 
+    // Shipra CCC
     const texts = section.querySelectorAll(".animate-founder-text");
     const image = section.querySelector(".animate-founder-img");
 
