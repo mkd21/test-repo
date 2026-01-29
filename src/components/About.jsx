@@ -99,6 +99,8 @@ const About = () => {
           />
         </div>
 
+        {/* Hii There i am adding this line */}
+
         {/* Right Column */}
         <div
           ref={textRef}
